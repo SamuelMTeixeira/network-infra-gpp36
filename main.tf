@@ -42,7 +42,7 @@ resource "aws_route_table" "public" {
     gateway_id = aws_internet_gateway.main.id
   }
   tags = {
-    Name = "${var.project_name}-public-rt"
+    Name = "${var.project_name}-public-gateways"
   }
 }
 

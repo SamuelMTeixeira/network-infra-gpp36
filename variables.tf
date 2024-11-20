@@ -1,7 +1,12 @@
 variable "project_name" {
   description = "Nome do projeto"
   type        = string
-  default = "grupo-36"
+  default = "network-infra"
+}
+
+variable "aws_region" {
+  default = "us-east-1"
+  description = "AWS Region"
 }
 
 variable "vpc_cidr" {
