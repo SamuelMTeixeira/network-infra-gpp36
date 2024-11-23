@@ -1,4 +1,4 @@
-variable "project_name" {
+variable "name" {
   description = "Nome do projeto"
   type        = string
   default = "network-infra"
